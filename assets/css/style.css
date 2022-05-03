@@ -42,7 +42,7 @@ h1 {
     pointer-events: none;
 }
 .back{
-    background: url("assets/img/belleBall.jpeg");
+    background: url("../img/ball.jpeg");
     backface-visibility: hidden;
 }
 
