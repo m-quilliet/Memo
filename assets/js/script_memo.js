@@ -8,14 +8,14 @@ let playerLives= NB_PLAYER_LIVES;
 playerLivesCount.textContent = playerLives;
 // Générer la data
 let getData = () => [
-    {imgSrc:"/assets/img/1.jpeg",name:"dracaufeu"},
-    {imgSrc:"/assets/img/2.jpeg", name:"mewtow"},
-    {imgSrc:"/assets/img/3.jpeg", name:"tortank"},
-    {imgSrc:"/assets/img/4.jpeg", name:"ronflex"},
-    {imgSrc:"/assets/img/5.jpeg", name:"pikachu"},
-    {imgSrc:"/assets/img/6.jpeg", name:"evoli"},
-    {imgSrc:"/assets/img/7.jpeg", name:"carapuce"},
-    {imgSrc:"/assets/img/8.jpeg", name:"salameche"},
+    {imgSrc:"assets/img/1.jpeg",name:"dracaufeu"},
+    {imgSrc:"assets/img/2.jpeg", name:"mewtow"},
+    {imgSrc:"assets/img/3.jpeg", name:"tortank"},
+    {imgSrc:"assets/img/4.jpeg", name:"ronflex"},
+    {imgSrc:"assets/img/5.jpeg", name:"pikachu"},
+    {imgSrc:"assets/img/6.jpeg", name:"evoli"},
+    {imgSrc:"assets/img/7.jpeg", name:"carapuce"},
+    {imgSrc:"assets/img/8.jpeg", name:"salameche"},
     
 ];
 // Randomize (aleatoire)
