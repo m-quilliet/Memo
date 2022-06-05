@@ -30,7 +30,11 @@ let initCard=(item) => {
     face.classList.add("face");
     back.classList.add("back");
     // Rattacher les infos de la card
-    face.setAttribute("src", item.imgSrc);
+    
+    setTimeout(() => {
+        face.setAttribute("src", item.imgSrc);
+    }, 300);
+    
     card.setAttribute("name", item.name);
    // Rattacher les cards à la section
     section.appendChild(card);
