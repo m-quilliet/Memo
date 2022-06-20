@@ -1,5 +1,5 @@
 //nombre de vie du joueur en debut de partie
-const NB_PLAYER_LIVES=16;
+const NB_PLAYER_LIVES=8;
 // Rattacher à la section
 let section= document.querySelector("section");
 let playerLivesCount = document.querySelector("span");
@@ -84,7 +84,7 @@ let checkCards = (e) => {
         }
     }
     //Verification de "si" on a gagné le jeu//
-    if (toggleCard.lenght===16){
+    if (toggleCard.lenght===12){
         restart("Bravo, tu as gagné!!!");
     }
 };
